@@ -8,7 +8,7 @@ import ContactMe from "./components/ContactMe";
 
 function App() {
   return (
-    <div className="">
+    <div className="hide-scrollbar h-screen overflow-y-auto">
       <Home />
       <AboutMe />
       <Skills />
